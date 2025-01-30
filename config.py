@@ -19,7 +19,7 @@ class Config(object):
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6717382350').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "Rebel_Backup") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "RM_Botz") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002252886633"))
 
     # wes response configuration     
@@ -39,17 +39,17 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @Rebel_Backup"""
+<b>Bot Is Made By :</b> @RM_Botz"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
 ├<b>🤖 My Name</b> : {}
-├<b>🖥️ Developer</b> : <a href=https://t.me/Rebel_Backup>Rebel Botz</a> 
-├<b>👨‍💻 Programer</b> : <a href=https://t.me/Rebel_Backup>Rebel Developer</a>
-├<b>📕 Library</b> : <a href=https://t.me/Rebel_Backup>Pyrogram</a>
-├<b>✏️ Language</b> : <a href=https://t.me/Rebel_Backup>Python 3</a>
-├<b>💾 Database</b> : <a href=https://t.me/Rebel_Backup>Mongo DB</a>
-├<b>📊 Build Version</b> : <a href=https://t.me/Rebel_Backup>Rename v4.5.0</a></b>     
+├<b>🖥️ Developer</b> : <a href=https://t.me/RM_Botz>Rebel Botz</a> 
+├<b>👨‍💻 Programer</b> : <a href=https://t.me/RM_Botz>Rebel Developer</a>
+├<b>📕 Library</b> : <a href=https://t.me/RM_Botz>Pyrogram</a>
+├<b>✏️ Language</b> : <a href=https://t.me/RM_Botz>Python 3</a>
+├<b>💾 Database</b> : <a href=https://t.me/RM_Botz>Mongo DB</a>
+├<b>📊 Build Version</b> : <a href=https://t.me/RM_Botz>Rename v4.5.0</a></b>     
 ╰───────────────⍟
 """
 
@@ -75,7 +75,7 @@ class Txt(object):
 
 ➪ Send Any File And Type New File Name And Select The Format [ Document, Video, Audio ].           
 
-𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Rebel_Backup>Developer</a>
+𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/RM_Botz>Developer</a>
 """
 
     PROGRESS_BAR = """\n
