@@ -10,16 +10,16 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "7851044479:AAFwX3FCIALFRG_-44TMxRHiydAUQogBpLs") 
    
     # database config
-    DB_NAME = os.environ.get("DB_NAME","")     
+    DB_NAME = os.environ.get("DB_NAME","Rebel")     
     DB_URL  = os.environ.get("DB_URL","mongodb+srv://rebelbotz22:vNcEEoNvSQ33d44K@cluster0.oj1hu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
+    START_PIC   = os.environ.get("START_PIC", "https://envs.sh/ayU.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6717382350').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "-1002396993826") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002252886633"))
 
     # wes response configuration     
